@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    padding: 3em;
+}
+
+.site-nav a {
+    height: 100%;
+}
+
+.site-nav a img {
+    height: 100%;
+}
+
+.size-nav .desktop {
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-nav .desktop a {
+    margin: 0.5em;
+}
