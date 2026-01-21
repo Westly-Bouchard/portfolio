@@ -1,0 +1,49 @@
+#navbar {
+    min-height: 6rem;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 0em 3em;
+}
+
+.site-nav #logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav #logo {
+    height: 3em;
+}
+
+.site-nav .desktop {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5em;
+}
+
+.site-nav .link {
+    text-decoration: underline solid black 2px;
+    color: black;
+
+    padding: 0.33em 0.66em;
+
+    border-radius: 7px;
+}
+
+.site-nav .link:hover {
+    background-color: #f0f0f0;
+}
+
+.site-nav .link:active {
+    background-color: #d0d0d0;
+}
+
+.page-home .site-nav #home,
+.page-about .site-nav #about,
+.page-projects .site-nav #projects {
+    background-color: #f0f0f0;
+}
