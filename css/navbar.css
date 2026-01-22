@@ -1,13 +1,13 @@
 #navbar {
-    min-height: 6rem;
+    min-height: 6.5rem;
 }
 
 .site-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 6rem;
-    padding: 0em 3em;
+    height: 6.5rem;
+    padding: 0em 3em 0em 2em;
 }
 
 .site-nav #logo-link {
@@ -16,7 +16,7 @@
 }
 
 .site-nav #logo {
-    height: 3em;
+    height: 4em;
 }
 
 .site-nav .desktop {
@@ -32,6 +32,9 @@
     padding: 0.33em 0.66em;
 
     border-radius: 7px;
+
+    transition: background-color 0.125s;
+    transition-timing-function: ease-in;
 }
 
 .site-nav .link:hover {
@@ -46,4 +49,51 @@
 .page-about .site-nav #about,
 .page-projects .site-nav #projects {
     background-color: #f0f0f0;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    color: inherit;
+    font: inherit;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.site-nav .mobile {
+    display: none;
+    align-items: center;
+
+    transition: display 2s;
+}
+
+.site-nav #menu-toggle {
+    height: 4em;
+}
+
+@media screen and (max-width: 500px) {
+    .site-nav .desktop {
+        display: none;
+    }
+
+    .site-nav .mobile {
+        display: flex;
+    }
+}
+
+#menu-popover {
+    position: fixed;
+    top: 6.5rem;
+    left: 0;
+    width: 100vw;
+
+    border: none;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
