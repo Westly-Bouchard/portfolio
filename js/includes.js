@@ -1,5 +1,4 @@
 async function include(selector, url) {
-    console.log("include called");
     // Find div with selector
     const el = document.querySelector(selector);
     if (!el) return;

@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     height: 6.5rem;
-    padding: 0em 3em 0em 2em;
+    padding: 0em 3em 0em 2.33em;
 }
 
 .site-nav #logo-link {
@@ -16,7 +16,8 @@
 }
 
 .site-nav #logo {
-    height: 4em;
+    /* height: 4em; */
+    height: 3em;
 }
 
 .site-nav .desktop {
@@ -29,7 +30,7 @@
     text-decoration: underline solid black 2px;
     color: black;
 
-    padding: 0.33em 0.66em;
+    padding: 0.5em 1em;
 
     border-radius: 7px;
 
@@ -38,7 +39,8 @@
 }
 
 .site-nav .link:hover {
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
+    background-color: #A9C7E6;
 }
 
 .site-nav .link:active {
@@ -48,7 +50,7 @@
 .page-home .site-nav #home,
 .page-about .site-nav #about,
 .page-projects .site-nav #projects {
-    background-color: #f0f0f0;
+    background-color: #A9C7E6;
 }
 
 button {

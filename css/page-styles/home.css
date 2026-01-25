@@ -1,0 +1,53 @@
+.intro {
+    max-width: 60%;
+    margin: auto;
+    padding-top: 6.5rem;
+}
+
+.intro h1 {
+    font-size: 24px;
+    font-weight: 400;
+    /* margin-bottom: 0.25em; */
+}
+
+.intro .byline {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.intro #subtitle {
+    font-size: 18;
+    color: #505050;
+}
+
+.intro #hook {
+    font-size: 64px;
+    letter-spacing: 0.05ch;
+}
+
+.intro .heroem {
+    text-decoration: underline #8FB3D9;
+}
+
+@media screen and (max-width: 1170px) {
+    .intro .byline {
+        display: block;
+    }
+
+    .intro #hook {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .intro #hook {
+        font-size: 32px;
+    }
+
+    .intro {
+        padding-top: 4rem;
+    }
+}
