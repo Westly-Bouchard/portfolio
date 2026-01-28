@@ -23,6 +23,9 @@ function createCardElement(meta) {
     const card = document.createElement('div');
     card.classList.add('project-card');
 
+    const descContainer = document.createElement('div');
+    descContainer.classList.add('description-container');
+
     const img = document.createElement('img');
     img.src = meta.thumbnail;
 
@@ -32,9 +35,11 @@ function createCardElement(meta) {
     const desc = document.createElement('p');
     desc.innerText = meta.description;
 
+    descContainer.appendChild(title);
+    descContainer.appendChild(desc);
+
     card.appendChild(img);
-    card.appendChild(title);
-    card.appendChild(desc);
+    card.appendChild(descContainer);
 
     return card;
 }

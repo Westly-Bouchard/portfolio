@@ -10,3 +10,15 @@ html {
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
 }
+
+.content {
+    max-width: 60%;
+    margin: auto;
+    padding-top: clamp(3rem, 8vw, 6rem);
+}
+
+@media screen and (max-width: 500px) {
+    .content {
+        max-width: 75%;
+    }
+}

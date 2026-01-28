@@ -1,18 +1,14 @@
 .intro {
-    max-width: 60%;
-    margin: auto;
-    padding-top: 6.5rem;
+    /* padding-top: 6.5rem; */
 }
 
 .intro h1 {
     font-size: 24px;
     font-weight: 400;
-    /* margin-bottom: 0.25em; */
 }
 
 .intro .byline {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     gap: 1em;
     margin-bottom: 1em;
@@ -50,4 +46,50 @@
     .intro {
         padding-top: 4rem;
     }
+}
+
+.project-preview .preface {
+    font-size: 18;
+    color: #505050;
+}
+
+.project-preview .heading {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+#project-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-card {
+    flex-basis: 30%;
+    min-width: 20ch;
+
+    border: 2px solid #CCC;
+    border-radius: 10px;
+}
+
+.project-card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+    border-bottom: 2px solid #CCC;
+}
+
+.project-card h2 {
+    margin: 0;
+}
+
+.project-card .description-container {
+    padding: 5px;
+
+    /* border: 2px solid #CCCCCC;
+    border-top: none;
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; */
 }

@@ -1,5 +1,5 @@
 ---
-title: Place Holder 3
+title: Placeholder 3
 thumbnail: /assets/placeholder.png
 description: "A project"
 ---
