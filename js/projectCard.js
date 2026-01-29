@@ -8,6 +8,7 @@ const dataFiles = [
 ];
 
 function parseMetaData(md) {
+    // Who even knows
     const match = md.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
 
     const meta = {};
@@ -26,8 +27,14 @@ function createCardElement(meta) {
     const descContainer = document.createElement('div');
     descContainer.classList.add('description-container');
 
-    const img = document.createElement('img');
-    img.src = meta.thumbnail;
+    const img = document.createElement('div');
+    img.classList.add("thumbnail");
+    img.style.backgroundImage = "url('" + meta.thumbnail + "')";
+    // img.style.width = "100%";
+    // img.style.aspectRatio = "16 / 10";
+
+    // const img = document.createElement('img');
+    // img.src = meta.thumbnail;
 
     const title = document.createElement('h2');
     title.innerText = meta.title;
