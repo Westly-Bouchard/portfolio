@@ -1,7 +1,7 @@
 ---
-title: Placeholder 2
+title: Encoder PCB
 thumbnail: /assets/placeholder.png
-description: "A project"
+description: Rotary magnetic position sensor for use in robotic actuators.
 ---
 # Test
 This is a test file

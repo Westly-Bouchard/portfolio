@@ -1,6 +1,7 @@
 .intro h1 {
-    font-size: 24px;
-    font-weight: 400;
+    /* font-size: 24px;
+    font-weight: 400; */
+    margin-bottom: 0;
 }
 
 .intro .byline {
@@ -29,20 +30,6 @@
     .intro .byline {
         display: block;
     }
-
-    .intro #hook {
-        /* font-size: 48px; */
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .intro #hook {
-        /* font-size: 32px; */
-    }
-
-    .intro {
-        padding-top: 4rem;
-    }
 }
 
 .project-preview .preface {
@@ -50,21 +37,23 @@
     color: #505050;
 }
 
-.project-preview .heading {
+/* .project-preview .heading {
     font-size: 34px;
     font-weight: 400;
-}
+    margin-bottom: 1rem;
+} */
 
 #project-cards-container {
     display: flex;
-    gap: 0.5em;
+    gap: 0.75em;
+    row-gap: 1em;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .project-card {
-    /* flex-basis: 31%; */
-    min-width: 20ch;
+    min-width: 25ch;
+    max-width: 40ch;
 
     flex-grow: 1;
 
@@ -96,4 +85,9 @@
 .project-card .description-container {
     padding: 5px;
     padding-top: 2px;
+}
+
+.project-card .description-container h2 {
+    font-weight: 500;
+    font-size: 24px;
 }
