@@ -1,0 +1,27 @@
+.intro > .byline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 1rem;
+    row-gap: 0;
+    margin-bottom: 1rem;
+}
+
+.byline > h1 {
+    font-size: var(--fs-h3);
+    margin: 0;
+}
+
+.byline > p {
+    color: var(--text-accent);
+}
+
+.hero {
+    font-size: clamp(1.33rem, 3.5vw, 3.5rem);
+    letter-spacing: 0.05ch;
+}
+
+.hero > em {
+    font-style: normal;
+    text-decoration: underline var(--accent);
+}

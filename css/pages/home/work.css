@@ -1,0 +1,24 @@
+#work-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.work > p {
+    margin-bottom: 1rem;
+}
+
+.work-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    margin-inline: auto;
+}
+
+/*.work-card > h2 {*/
+/*    font-size: var(--fs-h3);*/
+/*}*/
+
+/*.work-card > h3 {*/
+/*    font-size: var(--fs-h4);*/
+/*}*/

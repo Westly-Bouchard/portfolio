@@ -5,59 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Westly Bouchard</title>
 
-    <link rel="stylesheet" href="/css/global.css"/>
-    <link rel="stylesheet" href="/css/navbar.css"/>
-
-    <link rel="stylesheet" href="/css/page-styles/home.css"/>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/pages/home/home.css">
 </head>
-<body class="page-home">
-    <header>
+<body>
+    <header class="home">
         <div id="navbar"></div>
     </header>
-    <main>
-        <section class="intro content">
+
+    <script src="/js/navbar.js"></script>
+
+    <main class="page">
+
+        <section class="intro">
             <div class="byline">
-                <h1>West Bouchard</h1>
-                <p id="subtitle">Design Engineering Student @ The Colorado School of Mines</p>
+                <h1>Westly Bouchard</h1>
+                <p>Design Engineering Student @ The Colorado School of Mines</p>
             </div>
-            <p id="hook">Mechanical, Electrical, and Computer Engineer. <span class="heroem"><br/>I also build robots</span></p>
-            <a href="/about/">More About Me</a>
+            <p class="hero">
+                Mechanical, Electrical, and Computer Engineer.<br>
+                <em>I also build robots</em>
+            </p>
+            <div class="link">
+                <a href="/about/">More About Me</a>
+            </div>
         </section>
 
-        <section class="project-preview content">
+        <section class="projects">
             <p class="preface">Some Recent</p>
-            <h1 class="heading">Projects</h1>
+            <h1>Projects</h1>
             <div id="project-cards-container"></div>
-            <a href="/projects/">All Projects</a>
+            <script src="/js/projectCard.js"></script>
+            <div class="link">
+                <a href="/projects/">All Projects</a>
+            </div>
         </section>
 
-        <section class="work-experience content">
+        <section class="work">
             <h1>Work Experience</h1>
-            <p>I have extensive experience in software and tech. I'm looking for interdisciplinary roles that will allow me to use the skills I've learned as an engineering student.</p>
-            <div class="work-cards-container">
+            <p>
+                I have lots of experience as a software engineer.
+                I'm looking for interdisciplinary roles that will allow me to
+                bring in the skills I've learned as an engineering student.
+            </p>
+            <div id="work-cards-container">
                 <div class="work-card">
-                    <h2 class="title">Computer Science TA</h2>
-                    <h3 class="company">Colorado School of Mines</h3>
-                    <p class="desc">Guiding students through their first C++ class at Mines</p>
+                    <h3 class="title">Computer Science Teaching Assistant</h3>
+                    <h4 class="company">Colorado School of Mines</h4>
                     <p class="dates">Jan 2024 - Present</p>
                 </div>
                 <div class="work-card">
-                    <h2 class="title">Software Engineering Intern</h2>
-                    <h3 class="company">FreeWheel</h3>
-                    <p class="desc">TBD</p>
+                    <h3 class="title">Software Engineering Intern</h3>
+                    <h4 class="company">FreeWheel</h4>
                     <p class="dates">Jun 2025 - Aug 2025</p>
                 </div>
                 <div class="work-card">
-                    <h2 class="title">Software Engineering Intern</h2>
-                    <h3 class="company">Comcast | NBC Universal</h3>
-                    <p class="desc">TBD</p>
+                    <h3 class="title">Software Engineering Intern</h3>
+                    <h4 class="company">Comcast | NBC Universal</h4>
                     <p class="dates">Jun 2022 - August 2024 (3 Summers)</p>
                 </div>
             </div>
+            <div class="link">
+                <a href="/files/resume.pdf">My Full Resume</a>
+            </div>
         </section>
-    </main>
 
-    <script src="/js/includes.js"></script>
-    <script src="/js/projectCard.js"></script>
+    </main>
 </body>
 </html>

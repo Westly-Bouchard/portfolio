@@ -25,13 +25,13 @@ function createCardElement(meta) {
     card.classList.add('project-card');
 
     const descContainer = document.createElement('div');
-    descContainer.classList.add('description-container');
+    descContainer.classList.add('desc-container');
 
     const img = document.createElement('div');
     img.classList.add("thumbnail");
     img.style.backgroundImage = "url('" + meta.thumbnail + "')";
 
-    const title = document.createElement('h2');
+    const title = document.createElement('h3');
     title.innerText = meta.title;
 
     const desc = document.createElement('p');
@@ -42,6 +42,8 @@ function createCardElement(meta) {
 
     card.appendChild(img);
     card.appendChild(descContainer);
+    // card.appendChild(title);
+    // card.appendChild(desc);
 
     return card;
 }

@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -11,20 +11,44 @@ html {
     font-size: 18px;
 }
 
-.content {
-    max-width: 60%;
-    margin: auto;
+:root {
+    --fs-body: 1rem;
+
+    --fs-h1: clamp(2.2rem, 4vw, 3.2rem);
+    --fs-h2: clamp(1.8rem, 3vw, 2.4rem);
+    --fs-h3: clamp(1.4rem, 2vw, 1.8rem);
+    --fs-h4: clamp(1rem, 1vw, 1.4rem);
+
+    --accent: #8FB3D9;
+    --text-accent: #505050;
+}
+
+body {
+    font-size: var(--fs-body);
+}
+
+section {
     padding-top: clamp(3rem, 8vw, 6rem);
 }
 
-@media screen and (max-width: 500px) {
-    .content {
-        max-width: 75%;
-    }
+h1 { font-size: var(--fs-h1); margin-bottom: 1rem; }
+h2 { font-size: var(--fs-h2); }
+h3 { font-size: var(--fs-h3); }
+
+h1, h2, h3, h4 {
+    font-weight: 500;
 }
 
-h1 {
-    font-size: clamp(22px, calc(1.6vw + 22px), 34px);
-    font-weight: 450;
-    margin-bottom: 1rem;
+.page {
+    display: grid;
+    grid-template-columns: 
+        1fr
+        min(1100px, 100%)
+        1fr;
+
+    padding-inline: clamp(1rem, 4vw, 2rem);
+}
+
+.page > * {
+    grid-column: 2;
 }
