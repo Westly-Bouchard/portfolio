@@ -1,6 +1,6 @@
 ---
 title: Encoder PCB
-thumbnail: /assets/EncPCB-thm.png
+thumbnail: /assets/images/EncPCB-thm.png
 description: Rotary magnetic position sensor for use in robotic actuators.
 ---
 # Test

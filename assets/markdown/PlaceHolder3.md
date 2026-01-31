@@ -1,6 +1,6 @@
 ---
 title: Motor Driver Interface
-thumbnail: /assets/Driver-thm.png
+thumbnail: /assets/images/Driver-thm.png
 description: ROS2_Control interface for drives running legacy ODrive Firmware.
 ---
 # Test

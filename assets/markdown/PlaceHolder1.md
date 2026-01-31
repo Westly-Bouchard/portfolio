@@ -1,6 +1,6 @@
 ---
 title: Open Holonomics
-thumbnail: /assets/OSH-thm.png
+thumbnail: /assets/images/OSH-thm.png
 description: Open Source, omnidirectional robotic drive-base.
 ---
 # Test

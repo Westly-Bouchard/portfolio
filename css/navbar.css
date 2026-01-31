@@ -45,9 +45,9 @@
     background-color: #d0d0d0;
 }
 
-.home .site-nav #home,
-.about .site-nav #about,
-.projects .site-nav #projects {
+.home .site-nav #home-link,
+.about .site-nav #about-link,
+.projects .site-nav #projects-link {
     background-color: #A9C7E6;
 }
 
