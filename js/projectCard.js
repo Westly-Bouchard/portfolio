@@ -2,9 +2,9 @@ const dataPath = "/assets/markdown";
 
 // Assumes that the most recent project file is first
 const dataFiles = [
-    "PlaceHolder1.md.proj",
-    "PlaceHolder2.md.proj",
-    "PlaceHolder3.md.proj"
+    "PlaceHolder1.txt",
+    "PlaceHolder2.txt",
+    "PlaceHolder3.txt"
 ];
 
 function parseMetaData(md) {
