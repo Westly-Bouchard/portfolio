@@ -1,0 +1,23 @@
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 6.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container > a {
+    display: flex;
+    align-items: center;
+}
+
+.container svg {
+    height: 2rem;
+}
