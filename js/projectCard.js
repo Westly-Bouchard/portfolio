@@ -2,7 +2,7 @@ const dataPath = "/assets/markdown";
 
 // Assumes that the most recent project file is first
 const dataFiles = [
-    "PlaceHolder1.md",
+    "PlaceHolder1.md.proj",
     "PlaceHolder2.md",
     "PlaceHolder3.md"
 ];
