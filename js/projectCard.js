@@ -1,4 +1,4 @@
-const dataPath = "/projects/data";
+const dataPath = "/projects/markdown";
 
 // Assumes that the most recent project file is first
 const dataFiles = [
