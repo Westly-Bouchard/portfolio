@@ -1,0 +1,42 @@
+.blurb-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+.blurb-container .text {
+    flex: 4 1 500px;
+}
+
+.blurb-container .image {
+    flex: 3 1 280px;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image > img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.blurb-container p {
+    margin-top: 1rem;
+}
+
+.about-me > p {
+    margin-top: 2rem;
+}
+
+ul {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    list-style-position: inside;
+}
+
+li {
+    padding-top: 0.25rem;
+}

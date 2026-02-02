@@ -31,6 +31,25 @@ section {
     padding-top: clamp(3rem, 8vw, 6rem);
 }
 
+section > .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.link > a {
+    text-decoration: none;
+    color: black;
+    border: 3px solid var(--accent);
+    border-radius: 10px;
+    padding: 0.75rem 2.5rem;
+}
+
+.link > a:hover {
+    background-color: var(--accent);
+}
+
 h1 { font-size: var(--fs-h1); margin-bottom: 1rem; }
 h2 { font-size: var(--fs-h2); }
 h3 { font-size: var(--fs-h3); }
