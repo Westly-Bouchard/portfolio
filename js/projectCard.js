@@ -2,9 +2,9 @@ const dataPath = "/assets/markdown";
 
 // Assumes that the most recent project file is first
 const dataFiles = [
-    "PlaceHolder1.md",
-    "PlaceHolder2.md",
-    "PlaceHolder3.md"
+    "open-holonomics.md",
+    "encoder-pcb.md",
+    "driver-interface.md"
 ];
 
 function parseMetaData(md) {
@@ -42,8 +42,6 @@ function createCardElement(meta) {
 
     card.appendChild(img);
     card.appendChild(descContainer);
-    // card.appendChild(title);
-    // card.appendChild(desc);
 
     return card;
 }
