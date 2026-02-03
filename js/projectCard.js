@@ -2,9 +2,9 @@ const dataPath = "/assets/markdown";
 
 // Assumes that the most recent project file is first
 const dataFiles = [
-    "open-holonomics.md",
-    "encoder-pcb.md",
-    "driver-interface.md"
+    "open-holonomics",
+    "encoder-pcb",
+    "driver-interface"
 ];
 
 function parseMetaData(md) {
@@ -20,8 +20,9 @@ function parseMetaData(md) {
     return meta;
 }
 
-function createCardElement(meta) {
-    const card = document.createElement('div');
+function createCardElement(meta, file) {
+    const card = document.createElement('a');
+    card.href = `/projects/project/?p=${file}`
     card.classList.add('project-card');
 
     const descContainer = document.createElement('div');
@@ -48,14 +49,14 @@ function createCardElement(meta) {
 
 function renderProjectPreview() {
     dataFiles.slice(0, 3).forEach(async file => {
-        const res = await fetch(dataPath + "/" + file);
+        const res = await fetch(dataPath + "/" + file + ".md");
 
         const text = await res.text();
 
         const meta = parseMetaData(text);
 
         document.getElementById("project-cards-container")
-            .appendChild(createCardElement(meta));
+            .appendChild(createCardElement(meta, file));
     });
 }
 

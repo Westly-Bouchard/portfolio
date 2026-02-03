@@ -15,6 +15,9 @@
     border: 3px solid transparent;
     overflow: hidden;
 
+    text-decoration: none;
+    color: black;
+
     max-width: 420px;
     margin-inline: auto;
 
