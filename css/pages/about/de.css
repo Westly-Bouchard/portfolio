@@ -1,0 +1,11 @@
+.what-is-DE .preface {
+    color: #505050;
+}
+
+.what-is-DE > p {
+    margin-top: 1rem;
+}
+
+.what-is-DE {
+    margin-bottom: 5rem;
+}
