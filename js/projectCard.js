@@ -4,7 +4,13 @@ const dataPath = "/assets/markdown";
 const dataFiles = [
     "open-holonomics",
     "encoder-pcb",
-    "driver-interface"
+    "driver-interface",
+    "transit-modeling",
+    "makerspace-analysis",
+    "pen-plotter",
+    "hamster-wheel",
+    "desk-fan",
+    "intersection-redesign"
 ];
 
 function parseMetaData(md) {
@@ -47,8 +53,8 @@ function createCardElement(meta, file) {
     return card;
 }
 
-function renderProjectPreview() {
-    dataFiles.slice(0, 3).forEach(async file => {
+function renderProjectPreview(numCards) {
+    dataFiles.slice(0, numCards).forEach(async file => {
         const res = await fetch(dataPath + "/" + file + ".md");
 
         const text = await res.text();
@@ -60,4 +66,8 @@ function renderProjectPreview() {
     });
 }
 
-renderProjectPreview();
+if (window.location.pathname === "/") {
+    renderProjectPreview(3);
+} else {
+    renderProjectPreview(dataFiles.length);
+}
