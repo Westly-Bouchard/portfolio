@@ -1,0 +1,15 @@
+.what-is-DE .preface {
+    color: #505050;
+}
+
+.what-is-DE > p {
+    margin-top: 0.5rem;
+}
+
+.what-is-DE {
+    margin-bottom: 5rem;
+}
+
+.what-is-DE h3 {
+    margin-top: 1.5rem;
+}

@@ -2,9 +2,15 @@ const dataPath = "/assets/markdown";
 
 // Assumes that the most recent project file is first
 const dataFiles = [
-    "PlaceHolder1.md",
-    "PlaceHolder2.md",
-    "PlaceHolder3.md"
+    "open-holonomics",
+    "encoder-pcb",
+    "driver-interface",
+    "transit-modeling",
+    "makerspace-analysis",
+    "pen-plotter",
+    "hamster-wheel",
+    "desk-fan",
+    "intersection-redesign"
 ];
 
 function parseMetaData(md) {
@@ -20,8 +26,9 @@ function parseMetaData(md) {
     return meta;
 }
 
-function createCardElement(meta) {
-    const card = document.createElement('div');
+function createCardElement(meta, file) {
+    const card = document.createElement('a');
+    card.href = `/projects/project/?p=${file}`
     card.classList.add('project-card');
 
     const descContainer = document.createElement('div');
@@ -42,23 +49,25 @@ function createCardElement(meta) {
 
     card.appendChild(img);
     card.appendChild(descContainer);
-    // card.appendChild(title);
-    // card.appendChild(desc);
 
     return card;
 }
 
-function renderProjectPreview() {
-    dataFiles.slice(0, 3).forEach(async file => {
-        const res = await fetch(dataPath + "/" + file);
+function renderProjectPreview(numCards) {
+    dataFiles.slice(0, numCards).forEach(async file => {
+        const res = await fetch(dataPath + "/" + file + ".md");
 
         const text = await res.text();
 
         const meta = parseMetaData(text);
 
         document.getElementById("project-cards-container")
-            .appendChild(createCardElement(meta));
+            .appendChild(createCardElement(meta, file));
     });
 }
 
-renderProjectPreview();
+if (window.location.pathname === "/") {
+    renderProjectPreview(3);
+} else {
+    renderProjectPreview(dataFiles.length);
+}
