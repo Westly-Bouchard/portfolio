@@ -22,7 +22,8 @@
         <section id="proj"></section>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<!--    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
     <script>
         const urlParams = new URLSearchParams(window.location.search);
         const proj = urlParams.get("p");
@@ -31,8 +32,8 @@
             fetch(`/assets/markdown/${proj}.md`)
                 .then(res => res.text())
                 .then(md => {
-                    const start = md.indexOf("#");
-                    document.getElementById("proj").innerHTML = `${marked.parse(md.slice(start))}`;
+                    const text = md.split('\n').slice(5).join('\n');
+                    document.getElementById("proj").innerHTML = `${marked.parse(text)}`;
                 });
         }
     </script>
