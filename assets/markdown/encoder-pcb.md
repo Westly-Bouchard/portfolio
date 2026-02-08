@@ -11,6 +11,12 @@ description: Rotary magnetic position sensor for use in robotic actuators.
 > This project has been sponsored by PCBWay, They've generously provided PCB
 > prototyping and assembly services for version 2 of the board!
 
+> ℹ️ INFO
+> 
+> Date completed: August 29, 2025\
+> Associated Course: N/A\
+> Project Type: Personal
+
 ## Motivation
 After an unsuccessful search for a compact, inexpensive, and performant encoder
 for an upcoming robotics project, I decided to try my hand at PCB
@@ -29,6 +35,8 @@ My primary goals were to:
 I've learned so much from open source projects and freely available online
 resources. Because of this, I dedicate my work to the public good, in the hope
 that others may learn from me as I have learned from them.
+
+As such, this project is licensed under CERN-OHL-W-2.0
 
 I strive to thoroughly document my projects, and to structure information such
 that anyone can learn from my work, be they beginners or professionals.
