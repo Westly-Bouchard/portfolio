@@ -58,10 +58,10 @@ I also added a solder jumper to the back of the board that would allow the user
 to choose between 3.3 or 5 volt power. This was important because I had planned
 to use these boards in systems with both 5 volt and 3.3 volt logic.
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 1rem;">
-<img src="/assets/images/encoder-board-schematic.jpeg" alt="KiCad schematic">
-<img src="/assets/images/encoder-board-layout.jpeg" alt="KiCad layout">
-<img src="/assets/images/encoder-board-v1-render.jpeg" alt="KiCad render">
+<div class="image-grid">
+<img src="/assets/images/encoder-board/encoder-board-schematic.jpeg" alt="KiCad schematic">
+<img src="/assets/images/encoder-board/encoder-board-layout.jpeg" alt="KiCad layout">
+<img src="/assets/images/encoder-board/encoder-board-v1-render.jpeg" alt="KiCad render">
 </div>
 <br>
 

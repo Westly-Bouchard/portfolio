@@ -1,0 +1,15 @@
+.markdown-body blockquote {
+    border-left: .25em solid var(--accent);
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.image-grid > img {
+    width: 100%;
+    max-width: 300px;
+    margin-inline: auto;
+}
