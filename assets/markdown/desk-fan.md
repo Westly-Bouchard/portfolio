@@ -54,12 +54,16 @@ on this geometry for our design (though others were explored).
 Throughout this process, we were sketching our ideas, and this sprint ended with
 the construction of a low fidelity prototype out of cardboard and paper.
 
-TODO: Add images here
+<div class="image-grid">
+<img src="/assets/images/desk-fan/desk-fan-1.png" alt="Disassembly of a desk fan"/>
+<img src="/assets/images/desk-fan/desk-fan-3.png" alt="Concept sketches for redesign"/>
+<img src="/assets/images/desk-fan/desk-fan-2.png" alt="Low fidelity, cardboard prototype"/>
+</div>
 
 ## Iteration and Data Collection
 
 Our primary usability and user experience concerns with our design were:
-- Making the disassembly process was intuitive
+- Making the disassembly process intuitive
 - Ensuring that the size of our hexagonal tiles prevented the user from sticking 
   their fingers too far in and hitting the blades.
 
@@ -67,7 +71,10 @@ To test these concerns, and validate our design decisions, we developed a series
 of mid-fidelity prototypes and engaged in user experience testing with our
 classmates.
 
-TODO: Add photos and potentially more text here
+<div class="image-grid">
+<img src="/assets/images/desk-fan/desk-fan-4.png" alt="Test print of hexagonal tiling"/>
+<img src="/assets/images/desk-fan/desk-fan-5.png" alt="OnShape assembly of mid fidelity prototype"/>
+</div>
 
 ## Final Design
 
@@ -79,4 +86,7 @@ I also designed a simple twist lock closure that used magnets to hold the pieces
 in their locked position. Finally, as hexagons were a prominent design element,
 we modeled the base after a bee hive to complete the look.
 
-TODO: Final batch of images
+<div class="image-grid">
+<img src="/assets/images/desk-fan/desk-fan-6.png" alt="CAD model of high fidelity prototype"/>
+<img src="/assets/images/desk-fan/desk-fan-7.png" alt="3D Printed Final Product"/>
+</div>
