@@ -27,7 +27,7 @@ My primary goals were to:
 
 ### Open Source
 I've learned so much from open source projects and freely available online
-resources. Because of this, I dedicate my work to the public domain, in the hope
+resources. Because of this, I dedicate my work to the public good, in the hope
 that others may learn from me as I have learned from them.
 
 I strive to thoroughly document my projects, and to structure information such
