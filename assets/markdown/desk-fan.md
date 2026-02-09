@@ -7,7 +7,7 @@ description: Product redesign exercise for Intro to Design Engineering Class
 
 > ℹ️ INFO
 > 
-> Date completed: December 5, 2024\
+> Status: Completed on December 5, 2024\
 > Associated Course: EDNS 200 | Introduction to Design Engineering\
 > Project Type: Group, 2 people
 

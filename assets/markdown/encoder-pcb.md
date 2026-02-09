@@ -13,8 +13,7 @@ description: Rotary magnetic position sensor for use in robotic actuators.
 
 > ℹ️ INFO
 > 
-> Date completed: August 29, 2025\
-> Associated Course: N/A\
+> Status: Completed on August 29, 2025\
 > Project Type: Personal
 
 ## Motivation

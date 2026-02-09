@@ -7,8 +7,7 @@ description: ROS2_Control interface for drives running legacy ODrive Firmware.
 
 > ℹ️ INFO
 >
-> Date completed: Ongoing\
-> Associated Course: N/A\
+> Status:  Ongoing\
 > Project Type: Personal
 
 ## Context
