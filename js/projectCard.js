@@ -10,7 +10,9 @@ const dataFiles = [
     "pen-plotter",
     "hamster-wheel",
     "desk-fan",
-    "intersection-redesign"
+    "interactive-app",
+    "intersection-redesign",
+    "mash"
 ];
 
 function parseMetaData(md) {
