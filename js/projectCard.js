@@ -81,7 +81,7 @@ async function renderProjectPreview(numCards) {
 }
 
 if (window.location.pathname === "/") {
-    renderProjectPreview(3).then(r => {});
+    renderProjectPreview(3).then(() => {});
 } else {
-    renderProjectPreview(dataFiles.length).then(r => {});
+    renderProjectPreview(dataFiles.length).then(() => {});
 }
