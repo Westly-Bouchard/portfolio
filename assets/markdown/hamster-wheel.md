@@ -5,4 +5,18 @@ description: An unsuccessful attempt to construct a functioning hamster wheel fo
 ---
 # Human Sized Hamster Wheel
 
-> A writeup is coming soon!
+> ℹ️ INFO
+>
+> Status: Completed on December 2, 2024\
+> Associated Course: EDNS 210 | Physical Prototyping\
+> Project Type: Group, 4 people
+
+## Context
+
+## Hit The Ground Running
+
+## Retroactive Calculations
+
+## Falling Short
+
+## Reflections
