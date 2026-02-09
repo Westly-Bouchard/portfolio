@@ -5,8 +5,8 @@ const dataFiles = [
     "open-holonomics",
     "encoder-pcb",
     "driver-interface",
-    "transit-modeling",
-    "makerspace-analysis",
+    // "transit-modeling",
+    // "makerspace-analysis",
     "pen-plotter",
     "hamster-wheel",
     "desk-fan",
@@ -55,21 +55,33 @@ function createCardElement(meta, file) {
     return card;
 }
 
-function renderProjectPreview(numCards) {
-    dataFiles.slice(0, numCards).forEach(async file => {
-        const res = await fetch(dataPath + "/" + file + ".md");
+async function renderProjectPreview(numCards) {
+    const cards = [];
 
+    const promises = dataFiles.slice(0, numCards).map(async (file, index) => {
+        const res = await fetch(`${dataPath}/${file}.md`);
         const text = await res.text();
-
         const meta = parseMetaData(text);
 
-        document.getElementById("project-cards-container")
-            .appendChild(createCardElement(meta, file));
+        return {
+            order: index,
+            card: createCardElement(meta, file),
+        };
     });
+
+    const results = await Promise.all(promises);
+
+    results
+        .sort((a, b) => a.order - b.order)
+        .forEach(({ card }) => {
+            document
+                .getElementById("project-cards-container")
+                .appendChild(card);
+        });
 }
 
 if (window.location.pathname === "/") {
-    renderProjectPreview(3);
+    renderProjectPreview(3).then(r => {});
 } else {
-    renderProjectPreview(dataFiles.length);
+    renderProjectPreview(dataFiles.length).then(r => {});
 }
