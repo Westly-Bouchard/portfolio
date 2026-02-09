@@ -5,4 +5,12 @@ description: A coreXY kinematic pen plotter prototype for a design class
 ---
 # Pen Plotter
 
-> A writeup is coming soon!
+## Context
+
+## Tension Trouble
+
+## Firmware Failures
+
+## Unfinished Business
+
+## Reflections

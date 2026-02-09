@@ -5,4 +5,18 @@ description: A simple, interpreted scripting language written in C++
 ---
 # Mash (Mini-Bash)
 
-> A writeup is coming soon!
+> ℹ️ INFO
+>
+> Status: Completed on December 2, 2023\
+> Associated Course: CSCI 200 | Foundational Programming Concepts & Design\
+> Project Type: Individual
+
+## Motivation
+
+## Grammar
+
+## Architecture
+
+## Trouble With Templates
+
+## Reflections
