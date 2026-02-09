@@ -56,7 +56,6 @@ function createCardElement(meta, file) {
 }
 
 async function renderProjectPreview(numCards) {
-    const cards = [];
 
     const promises = dataFiles.slice(0, numCards).map(async (file, index) => {
         const res = await fetch(`${dataPath}/${file}.md`);
