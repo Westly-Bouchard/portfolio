@@ -15,7 +15,7 @@ description: A simple, interpreted scripting language written in C++
 
 ## Grammar
 
-## Architecture
+## The Visitor Pattern
 
 ## Trouble With Templates
 

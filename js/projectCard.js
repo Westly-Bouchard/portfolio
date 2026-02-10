@@ -10,7 +10,7 @@ const dataFiles = [
     "pen-plotter",
     "hamster-wheel",
     "desk-fan",
-    "interactive-app",
+    // "interactive-app",
     "intersection-redesign",
     "mash"
 ];
