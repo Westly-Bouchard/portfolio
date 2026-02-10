@@ -86,11 +86,11 @@ picture-in-picture;
 web-share" referrerpolicy="strict-origin-when-cross-origin" 
 allowfullscreen>
 </iframe>
-</div>
-<br>
-Unfortunately, our calibration led to another round of unforeseen problems. But
-this time, with the other members of my team out for Thanksgiving break, we
-simply didn't have the manpower to address them all.
+</div>&nbsp;
+
+Unfortunately, our earlier recalibration led to another round of unforeseen 
+problems. But this time, with the other members of my team out for Thanksgiving
+break, we simply didn't have the manpower to address them all.
 
 In order to make the wheel strong enough to support a person, we had to switch
 from plywood to 2x4s for the walking slats. This almost doubled the weight of
