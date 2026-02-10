@@ -13,6 +13,9 @@ description: An unsuccessful attempt to construct a functioning hamster wheel fo
 
 ## Context
 
+This project ultimately failed to meet its functional goals, but it became one 
+of the most instructive engineering experiences I’ve had.
+
 For our final design sprint in _Physical Prototyping_ we were asked to develop
 a systems integration prototype. Having completed 75% of a prototyping course,
 feeling confident in our abilities, and against the caution of our professor, my 
@@ -52,10 +55,10 @@ were doing everything we could to stay on schedule.
 ## Retroactive Calculations
 
 About two weeks into the sprint, after we had bought and prepared all of our
-material, we ran face-first into a massive problem. The floor slats weren't 
+material, we ran face-first into a massive problem: the floor slats weren't 
 strong enough.
 
-We had just assumed that 3/8ths inch plywood would work but, in our haste, and
+We had just assumed that 3/8-th inch plywood would work but, in our haste, and
 after a couple of on the fly design changes, it became clear that the wood
 would break under load. Some quick calculations confirmed this and about $200 in
 materials went down the drain.
@@ -67,7 +70,7 @@ work we had done before.
 ## Falling Short
 
 The project had been going fairly well since our floor thickness mishap. Sure
-we were stressed and overworked, but the project was moving forward.
+we were stressed and overworked, but things were moving forward.
 
 <div style="display: flex; align-items: center; justify-content: center;">
 <iframe 
@@ -84,7 +87,7 @@ web-share" referrerpolicy="strict-origin-when-cross-origin"
 allowfullscreen>
 </iframe>
 </div>
-
+<br>
 Unfortunately, our calibration led to another round of unforeseen problems. But
 this time, with the other members of my team out for Thanksgiving break, we
 simply didn't have the manpower to address them all.
@@ -94,4 +97,17 @@ from plywood to 2x4s for the walking slats. This almost doubled the weight of
 each wheel section, and the combined load on the base bound the bearings that
 were supposed to help it roll.
 
+It worked well in the half-wheel tests, but we only got the full system assembled
+the night before we had to present our results. At around midnight we had to 
+throw in the towel.
+
 ## Reflections
+
+The issues described here were only some of the ones we had to deal with 
+throughout this project. This project, more than any other, taught me to actually
+take feedback I was given, and to take things like timelines and technical debt
+seriously.
+
+I think every student needs a failure as monumental as this because there's
+just simply no other way to convey the importance of so many of the lessons that
+our classes attempt to teach us every day.
