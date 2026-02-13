@@ -166,8 +166,8 @@ responsibility.
 
 ## Integration & Debugging
 
-This section highlights real integration failures and how architectural decisions
-simplified debugging across hardware and software boundaries.
+> This section highlights real integration failures and how architectural decisions
+> simplified debugging across hardware and software boundaries.
 
 Integration rarely goes as smoothly as expected, and that was certainly true
 for this project. While the final system was intended to run on a Raspberry Pi 
