@@ -90,5 +90,5 @@ pedestrian focused infrastructure.
 
 This project reshaped how I think about infrastructure design. Rather than aiming
 for an idealized end state, I learned to value incremental changes that balance
-political, financial, and construction realities—without losing sight of safety
+political, financial, and construction realities without losing sight of safety
 and equity.
