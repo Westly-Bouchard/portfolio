@@ -3,6 +3,11 @@ title: Human Sized Hamster Wheel
 thumbnail: /assets/images/hamster-wheel.png
 description: An unsuccessful attempt to construct a functioning hamster wheel for people
 ---
+
+<div style="display: flex; justify-content: center; align-items: center;">
+<img class="banner" src="/assets/images/hamster-wheel/hamster-wheel-banner.png" alt="Banner Image">
+</div>
+
 # Human Sized Hamster Wheel
 
 > ℹ️ INFO

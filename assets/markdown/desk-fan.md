@@ -3,6 +3,11 @@ title: Desk Fan Redesign
 thumbnail: /assets/images/desk-fan.png
 description: Product redesign exercise for Intro to Design Engineering Class
 ---
+
+<div style="display: flex; justify-content: center; align-items: center;">
+<img class="banner" src="/assets/images/desk-fan/desk-fan-banner.png" alt="Banner image">
+</div>
+
 # Desk Fan Redesign
 
 > ℹ️ INFO

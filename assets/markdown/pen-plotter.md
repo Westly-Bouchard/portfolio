@@ -3,6 +3,11 @@ title: CoreXY Pen Plotter
 thumbnail: /assets/images/pen-plotter.png
 description: A coreXY kinematic pen plotter prototype for a design class
 ---
+
+<div style="display: flex; justify-content: center; align-items: center;">
+<img class="banner" src="/assets/images/pen-plotter/pen-plotter-banner.png" alt="Banner image">
+</div>
+
 # Pen Plotter
 
 > ℹ️ INFO
@@ -92,7 +97,6 @@ it wasn't what I had originally envisioned.
 height="315" 
 src="https://www.youtube.com/embed/4tKHTWxPI9g?si=nm0nAeCa9PQcoDIK" 
 title="YouTube video player" 
-frameborder="0" 
 allow="accelerometer; 
 clipboard-write;
 encrypted-media; 

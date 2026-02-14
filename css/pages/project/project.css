@@ -1,3 +1,7 @@
+.banner {
+    max-height: 300px;
+}
+
 .markdown-body blockquote {
     border-left: .25em solid var(--accent);
 }
@@ -23,7 +27,7 @@
 }
 
 .image-caption img {
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .image-caption p {
