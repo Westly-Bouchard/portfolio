@@ -63,7 +63,6 @@ design space and become familiar with common packaging strategies, drivetrain
 layouts, and reduction methods. With this foundation, I moved into OnShape to 
 begin blocking out early concepts.
 
-<div class="image-caption">
 <div class="image-grid">
 <img src="/assets/images/open-holonomics/oh-2.png" alt="First prototype for the wheel assembly">
 <img src="/assets/images/open-holonomics/oh-3.png" alt="Section view of wheel assembly">
@@ -72,7 +71,6 @@ begin blocking out early concepts.
 The wheel assembly followed a conventional bevel-gear layout, which proved 
 reliable and remained largely unchanged across iterations.
 </p>
-</div>
 
 During this phase, I noticed that most swerve module designs rely on belts to 
 transmit motion for one, or sometimes both, axes. Following this convention, my 
