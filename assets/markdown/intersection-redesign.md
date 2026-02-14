@@ -3,6 +3,11 @@ title: Intersection Redesign
 thumbnail: /assets/images/intersection-redesign.png
 description: Introductory DE project to redesign an intersection for people, rather than cars
 ---
+
+<div style="display: flex; justify-content: center; align-items: center;">
+<img class="banner" src="/assets/images/intersection-redesign/intersection-redesign-banner.png" alt="Banner image">
+</div>
+
 # Intersection Redesign
 
 > ℹ️ INFO

@@ -1,3 +1,7 @@
+.banner {
+    max-height: 300px;
+}
+
 .markdown-body blockquote {
     border-left: .25em solid var(--accent);
 }

@@ -3,6 +3,11 @@ title: Mash Language
 thumbnail: /assets/images/mash.png
 description: A simple, interpreted scripting language written in C++
 ---
+
+<div style="display: flex; justify-content: center; align-items: center;">
+<img class="banner" src="/assets/images/mash-banner.png" alt="Banner image">
+</div>
+
 # Mash (Mini-Bash)
 
 > ℹ️ INFO

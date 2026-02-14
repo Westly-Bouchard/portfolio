@@ -3,6 +3,11 @@ title: Open Holonomics
 thumbnail: /assets/images/OSH-thm.png
 description: Open Source, omnidirectional robotic drive-base.
 ---
+
+<div style="display: flex; justify-content: center; align-items: center;">
+<img class="banner" src="/assets/images/open-holonomics/oh-banner.png" alt="Banner image">
+</div>
+
 # Open Holonomics
 
 > ℹ️ INFO
@@ -64,7 +69,7 @@ begin blocking out early concepts.
 <img src="/assets/images/open-holonomics/oh-3.png" alt="Section view of wheel assembly">
 </div>
 <p>
-The wheel assembly followed a conventional bevel-gear layout, <br>which proved 
+The wheel assembly followed a conventional bevel-gear layout, which proved 
 reliable and remained largely unchanged across iterations.
 </p>
 </div>

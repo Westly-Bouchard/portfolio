@@ -4,6 +4,10 @@ thumbnail: /assets/images/EncPCB-thm.png
 description: Rotary magnetic position sensor for use in robotic actuators.
 ---
 
+<div style="display: flex; justify-content: center; align-items: center;">
+<img class="banner" src="/assets/images/encoder-board/encoder-board-banner.png" alt="Banner Image">
+</div>
+
 # Encoder PCB
 
 > ❗️Update
