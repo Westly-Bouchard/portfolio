@@ -146,7 +146,7 @@ was one of the motivations for eventually open-sourcing the project.
 
 As I studied other open-source projects and community discussions, I gradually 
 developed a clearer mental model of how a ROS-based system should be structured.
-My previous experience with robot control software (largely shaped by FRC) 
+My previous experience with robot control software (largely shaped by FIRST Robotics) 
 resembled a single, sequential control loop where most logic lived in one place 
 and data flowed linearly. As a result, my initial instinct with ROS was to 
 replicate that approach by placing most functionality into a single node.
