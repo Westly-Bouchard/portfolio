@@ -18,10 +18,18 @@
 
 .hero {
     font-size: clamp(1.33rem, 3.5vw, 3.5rem);
-    letter-spacing: 0.05ch;
 }
 
 .hero > em {
     font-style: normal;
     text-decoration: underline var(--accent);
+}
+
+#shoulder-pivot, #elbow-pivot, #hand-pivot {
+    transform-box: view-box;
+}
+
+svg {
+    width: 100%;
+    /*height: auto;*/
 }
