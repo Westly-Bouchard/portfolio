@@ -8,17 +8,21 @@ const shoulder = document.querySelector("#shoulder-pivot");
 const elbow = document.querySelector("#elbow-pivot");
 const hand = document.querySelector("#hand-pivot");
 
+const sP = document.querySelector("#path3");
+const eP = document.querySelector("#path6");
+const hP = document.querySelector("#path11");
+
 gsap.set(shoulder, {
-    transformOrigin: "937px 89.264px",
+    transformOrigin: `${sP.cx.baseVal.value} ${sP.cy.baseVal.value}`,
     rotation: shoulderStart
 });
 
 gsap.set(elbow, {
-    transformOrigin: "762.791px 89.264",
+    transformOrigin: `${eP.cx.baseVal.value} ${eP.cy.baseVal.value}`,
     rotation: elbowStart
 });
 gsap.set(hand, {
-    transformOrigin: "647.538 89.264",
+    transformOrigin: `${hP.cx.baseVal.value} ${hP.cy.baseVal.value}`,
     rotation: handStart
 });
 
