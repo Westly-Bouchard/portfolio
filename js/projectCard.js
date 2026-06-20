@@ -2,6 +2,7 @@ const dataPath = "/assets/markdown";
 
 // Assumes that the most recent project file is first
 const dataFiles = [
+    "mosscap",
     "open-holonomics",
     "encoder-pcb",
     "driver-interface",
